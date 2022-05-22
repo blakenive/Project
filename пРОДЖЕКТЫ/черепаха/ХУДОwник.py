@@ -1,0 +1,23 @@
+from turtle import*
+from random import*
+speed(1000)
+pensize(5)
+color('red')
+a = input("Брат квадрат нужен ?(стоп-остановить):")
+x = randint(-300,300)
+y = randint(-300,300)
+while a != 'стоп':
+    x = randint(-300,300)
+    y = randint(-300,300)
+    penup()
+    goto(x,y)
+    pendown()
+    forward(100)
+    left(90)
+    forward(100)
+    left(90)
+    forward(100)
+    left(90)
+    forward(100)
+    left(90)
+    a = input("Брат квадрат нужен ?(стоп-остановить):")
